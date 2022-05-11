@@ -1,16 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Container, Button, cols, rows, form} from 'react-bootstrap';
 
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <button>Test button</button>
-      </header>
+          <h1>Commercial Real estate in one place</h1>
     </div>
+
   );
 }
 
