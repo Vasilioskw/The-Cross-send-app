@@ -1,16 +1,15 @@
-// import logo from './logo.svg';
+import React from 'react';
+// import { Router } from 'react-router-dom';
+// import {Container, Button, cols, rows, form} from 'react-bootstrap';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Button, cols, rows, form} from 'react-bootstrap';
-
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
-
-    <div className="App">
-          <h1>Commercial Real estate in one place</h1>
-    </div>
-
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
