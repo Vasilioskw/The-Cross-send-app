@@ -10,7 +10,7 @@ function Navbar() {
 
 	const handleClick = () => setClick(!click);
 	const closeMobileMenu = () => setClick(false);
-	
+
 return(
 	<>
 		<nav className="navbar">
@@ -27,6 +27,12 @@ return(
 						Home
 					</Link>
 				</li>
+				<li className='nav-item'>
+					<Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+						services <i className='fas fa-caret-down' />
+					</Link>
+				</li>
+
 			</ul>
 		</nav>
   	</>
