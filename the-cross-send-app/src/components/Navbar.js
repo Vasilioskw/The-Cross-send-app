@@ -48,11 +48,11 @@ return(
 						login / Sign up
 					</Link>
 				</li>
-				<li className='nav-item'>
+				{/* <li className='nav-item'>
 					<Link to='/faq' className='nav-links' onClick={closeMobileMenu}>
 						FAQ
 					</Link>
-				</li>
+				</li> */}
 			</ul>
 			<Button />
 		</nav>
